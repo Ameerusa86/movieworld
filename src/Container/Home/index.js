@@ -17,7 +17,6 @@ const HomeContainer = () => {
     );
     setContent(data.results);
     setPaginationno(data.total_pages);
-    console.log("data", data);
   };
 
   useEffect(() => {

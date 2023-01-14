@@ -55,8 +55,10 @@ const CardMoviesComponents = ({ data, mediaType }) => {
               </svg>
               <b>{vote_average}</b>
             </div>
-            <div className="hd">{mediaType}</div>
-            <b>{original_language}</b>
+            <div className="hd">
+              {media_type}
+              <b>{original_language}</b>
+            </div>
           </figure>
           <div className="video-content">
             <ul className="tags">
