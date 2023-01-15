@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import "./style.css";
 
 const HeaderComponent = () => {
   const navData = [
@@ -17,12 +18,12 @@ const HeaderComponent = () => {
   return (
     <header className="header">
       <Navbar bg="dark" expand="lg">
-        <Container>
-          <Navbar.Brand>Cinema World</Navbar.Brand>
-          <Navbar.Toggle area-contrls="navbarScroll" />
+        <Container className="containerNav">
+          <Navbar.Brand className="logo">Cinema World</Navbar.Brand>
+          <Navbar.Toggle className="navbartoggle" area-contrls="navbarScroll" />
           <Navbar.Collapse id="navbarSroll">
             <Nav
-              className="me-auto my-2 my-lg-0"
+              className="m-auto my-2 my-lg-0"
               style={{ maxHeight: "100px" }}
               navbarScroll
             >

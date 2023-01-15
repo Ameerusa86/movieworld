@@ -73,7 +73,7 @@ const FooterComponent = () => {
             <Col className="col-12">
               <div className="footerCopyright">
                 <small>
-                  © Learn Coding With Bhai , 2022. Developed and Designed by{" "}
+                  © Developed and Designed by{" "}
                   <a
                     href="https://www.youtube.com/channel/UCoC2WTn5wlxcqGkbLbUH8-w"
                     target="_blank"
