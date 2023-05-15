@@ -1,7 +1,7 @@
 Cinema World Web Application
 ![](./src//Assests/images/sceenshot.png)
 
-# Live Demo: https://cinemaworld2023.netlify.app/
+## Live Demo: https://cinemaworld2023.netlify.app/
 
 # Getting Started with Create React App
 
